@@ -204,6 +204,10 @@
   font-weight: var(--font-weight-regular);
 }
 
+.fourth__section {
+  gap: 10px;
+}
+
 .image__list {
   display: grid;
   gap: 10px;
@@ -300,6 +304,10 @@
   .third__section {
     grid-template-columns: 1fr 2fr;
   }
+  
+  .fourth__section {
+    gap: 20px;
+  }
 
   .image__list {
     grid-template-columns: 1fr 1fr 1fr;
@@ -361,6 +369,12 @@
 
   .section__title {
     inline-size: 315px;
+  }
+
+  .second__section {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: min-content 1fr;
+    gap: 20px;
   }
 
   .second__section .section__title {
