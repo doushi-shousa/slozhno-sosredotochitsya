@@ -285,6 +285,8 @@
 
   .first__section {
     grid-template-columns: 1fr 2fr;
+    gap: 0;
+    column-gap: 20px;
   }
 
   .first__section .section__title {
@@ -297,10 +299,6 @@
 
   .third__section {
     grid-template-columns: 1fr 2fr;
-  }
-
-  .third__section .section__title {
-    grid-row-start: span 6;
   }
 
   .image__list {
@@ -355,7 +353,6 @@
 
   .first__section .third__section {
     grid-template-columns: min-content 2fr;
-    grid-template-rows: repeat(2 1fr);
   }
 
   .first__section .section__title {
@@ -372,6 +369,5 @@
 
   .third__section {
     grid-template-columns: min-content 2fr;
-    grid-template-rows: repeat(6 1fr);
   }
 }
