@@ -33,11 +33,11 @@
 
 .header__theme-menu-list {
   display: flex;
+  flex-direction: column;
+  justify-self: start;
+  gap: 10px;
   inline-size: 70px;
   block-size: 98px;
-  flex-direction: column;
-  gap: 10px;
-  justify-self: start;
 }
 
 .header__theme-menu-item {
@@ -45,6 +45,7 @@
 }
 
 .header__theme-menu-button {
+  padding-bottom: 17px;
   line-height: 18px;
   color: var(--color-accent);
   text-transform: lowercase;
@@ -139,18 +140,11 @@
 }
 
 .title__description {
-  box-sizing: border-box;
   inline-size: 355px;
   justify-self: end;
   color: var(--color-zone-text);
   background-color: var(--color-zone);
-}
-
-.title__description-paragraph {
-  box-sizing: border-box;
-  display: block;
   font-weight: var(--font-weight-bold);
-
 }
 
 .main {
@@ -168,18 +162,12 @@
   font-weight: var(--font-weight-bold);
   color: var(--color-accent);
   font-size: var(--font-size);
-  margin: 20px;
 }
 
 .section__inside {
-  display: grid;
-  gap: 20px;
-}
-
-.card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .card__title {
@@ -191,6 +179,7 @@
 
 .card__text {
   color: var(--color-card-text);
+  margin-block-start: 10px;
 }
 
 .card__link {
@@ -269,7 +258,7 @@
     inset-inline-end: 20px;
   }
 
-  .header__description {
+  .title__description {
     align-self: center;
     inline-size: 364px;
   }
@@ -347,7 +336,7 @@
     text-shadow: 2px 2px 0 var(--color-title-shadow);
   }
 
-  .header__description {
+  .title__description {
     align-self: center;
     inline-size: 491px;
   }
