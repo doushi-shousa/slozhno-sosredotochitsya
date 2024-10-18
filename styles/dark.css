@@ -9,4 +9,16 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --background-image: url("../images/cover-image-dark.png");
+
+  --rec-visibility: visible;
+
+  --color-accent: rgba(255, 0, 112, 1);
+  --color-background: rgba(0, 0, 40, 1);
+  --color-title: rgba(219, 0, 255, 1);
+  --color-menu-hover: rgba(255, 0, 112, 0.4);
+  --color-zone: rgba(255, 0, 112, 1);
+  --color-zone-text: rgba(0, 0, 40, 1);
+  --color-card-text: rgba(241, 178, 206, 1);
+  --color-link-shadow: rgba(255, 0, 112, 1);
 }
