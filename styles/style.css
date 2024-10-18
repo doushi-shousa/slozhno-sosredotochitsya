@@ -161,13 +161,14 @@
 
 .section {
   display: grid;
-  gap: 20px;
+  column-gap: 20px;
 }
 
 .section__title {
   font-weight: var(--font-weight-bold);
   color: var(--color-accent);
   font-size: var(--font-size);
+  margin-bottom: 20px;
 }
 
 .section__inside {
@@ -295,11 +296,9 @@
 
   .first__section {
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat(2 1fr);
   }
 
   .first__section .section__title {
-    margin-right: 20px;
     grid-row-start: span 2;
   }
 
@@ -309,11 +308,9 @@
 
   .third__section {
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat(6 1fr);
   }
 
   .third__section .section__title {
-    margin-right: 20px;
     grid-row-start: span 6;
   }
 
