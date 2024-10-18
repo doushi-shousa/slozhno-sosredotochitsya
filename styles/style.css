@@ -161,14 +161,14 @@
 
 .section {
   display: grid;
-  column-gap: 20px;
+  gap: 20px;
 }
 
 .section__title {
   font-weight: var(--font-weight-bold);
   color: var(--color-accent);
   font-size: var(--font-size);
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .section__inside {
