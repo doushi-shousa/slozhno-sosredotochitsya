@@ -10,7 +10,7 @@
   background-attachment: fixed;
   background-size: cover;
   display: grid;
-  font-family: var(--font-family);
+  font-family: var(--font-family), var(--font-family-alternative);
   font-size: var(--font-size);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-line-height);
@@ -115,7 +115,8 @@
 
 }
 .rec::before {
-  content: "REC";
+  content: "rec";
+  text-transform: uppercase;
   line-height: 25px;
   color: var(--color-accent);
 }
@@ -188,8 +189,8 @@
 
 }
 .card__link:hover {
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-card-text);
 }
 
 .card__link:focus {
@@ -204,13 +205,16 @@
   font-weight: var(--font-weight-regular);
 }
 
-.fourth__section {
+.media__library {
   gap: 10px;
 }
 
 .image__list {
   display: grid;
   gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .image__list-title {
@@ -291,13 +295,13 @@
     gap: 80px;
   }
 
-  .first__section {
+  .introduction {
     grid-template-columns: 1fr 2fr;
     gap: 0;
     column-gap: 20px;
   }
 
-  .first__section .section__title {
+  .introduction .section__title {
     grid-row-start: span 2;
   }
 
@@ -305,11 +309,11 @@
     inline-size: 236px;
   }
 
-  .third__section {
+  .conclusion {
     grid-template-columns: 1fr 2fr;
   }
   
-  .fourth__section {
+  .media__library {
     gap: 20px;
   }
 
@@ -363,11 +367,11 @@
     block-size: 26px;
   }
 
-  .first__section .third__section {
+  .introduction .conclusion {
     grid-template-columns: min-content 2fr;
   }
 
-  .first__section .section__title {
+  .introduction .section__title {
     grid-row-start: span 2;
   }
 
@@ -375,17 +379,17 @@
     inline-size: 315px;
   }
 
-  .second__section {
+  .reasons {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: min-content 1fr;
     gap: 20px;
   }
 
-  .second__section .section__title {
+  .reasons .section__title {
     grid-column-start: span 3;
   }
 
-  .third__section {
+  .conclusion {
     grid-template-columns: min-content 2fr;
   }
 }
