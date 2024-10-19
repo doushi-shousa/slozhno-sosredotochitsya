@@ -14,7 +14,7 @@
   --rec-visibility: hidden;
 
   --color-accent: rgba(53, 52, 48, 1);
-  --color-background: rgba(0, 0, 40, 1);
+  --color-background: rgba(255, 241, 247, 1);
   --color-title: rgba(255, 194, 230, 1);
   --color-menu-hover: rgba(50, 49, 45, 0.4);
   --color-zone: rgba(255, 141, 203, 1);
@@ -30,7 +30,7 @@
     --rec-visibility: hidden;
   
     --color-accent: rgba(53, 52, 48, 1);
-    --color-background: rgba(0, 0, 40, 1);
+    --color-background: rgba(255, 241, 247, 1);
     --color-title: rgba(255, 194, 230, 1);
     --color-menu-hover: rgba(50, 49, 45, 0.4);
     --color-zone: rgba(255, 141, 203, 1);
